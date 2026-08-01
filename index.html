@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#09090b">
+  <meta property="og:title" content="시립중랑청소년센터 청소년 소영화 제작발표회">
+  <meta property="og:description" content="2026년 8월 29일 토요일 오전 11시, 메가박스 상봉 1관">
+  <title>청소년 소영화 제작발표회 초대장</title>
+  <style>
+    :root {
+      --bg:#09090b; --paper:#f4efe6; --ink:#191716;
+      --gold:#d8b56b; --muted:#aaa39a; --line:rgba(216,181,107,.28);
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;background:#111;color:#f7f3eb;
+      font-family: Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", sans-serif;
+      word-break:keep-all;
+    }
+    button,a{font:inherit}
+    .page{max-width:520px;margin:0 auto;background:var(--bg);min-height:100vh;overflow:hidden;box-shadow:0 0 70px #000}
+    .hero{
+      min-height:100svh;position:relative;display:flex;align-items:center;justify-content:center;
+      padding:52px 28px;text-align:center;isolation:isolate;
+      background:
+        radial-gradient(circle at 50% 25%, rgba(216,181,107,.18), transparent 32%),
+        linear-gradient(180deg,#08080a 0%,#151111 58%,#08080a 100%);
+    }
+    .hero:before,.hero:after{
+      content:"";position:absolute;inset:0;z-index:-1;pointer-events:none
+    }
+    .hero:before{
+      opacity:.22;
+      background-image:repeating-linear-gradient(90deg,transparent 0 35px,rgba(255,255,255,.025) 36px 37px);
+    }
+    .hero:after{background:linear-gradient(90deg,rgba(0,0,0,.48),transparent 18% 82%,rgba(0,0,0,.48))}
+    .film{
+      position:absolute;left:0;right:0;height:28px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+      background:repeating-linear-gradient(90deg,transparent 0 18px,var(--gold) 19px 28px,transparent 29px 47px);
+      opacity:.35
+    }
+    .film.top{top:20px}.film.bottom{bottom:20px}
+    .eyebrow{font-family:Georgia,serif;letter-spacing:.3em;color:var(--gold);font-size:12px;margin-bottom:30px}
+    h1{font-family:Georgia,"Noto Serif KR",serif;font-weight:500;line-height:1.45;font-size:35px;margin:0}
+    h1 small{display:block;font-family:inherit;font-size:17px;color:#d8d1c7;margin-bottom:12px;letter-spacing:.08em}
+    .rule{width:46px;height:1px;background:var(--gold);margin:30px auto}
+    .date{font-family:Georgia,serif;font-size:17px;letter-spacing:.1em}
+    .place{margin-top:10px;color:#cfc8be;font-size:14px}
+    .scroll{position:absolute;bottom:58px;left:50%;transform:translateX(-50%);font-size:10px;letter-spacing:.25em;color:#8d867d}
+    .scroll:after{content:"";display:block;width:1px;height:38px;margin:13px auto 0;background:linear-gradient(var(--gold),transparent);animation:drop 1.8s infinite}
+    @keyframes drop{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1)}100%{transform:scaleY(0);transform-origin:bottom}}
+    section{padding:82px 28px;border-top:1px solid rgba(255,255,255,.055)}
+    .section-title{text-align:center;font-family:Georgia,"Noto Serif KR",serif;font-size:25px;font-weight:500;margin:0 0 34px}
+    .section-title span{display:block;font:10px Georgia,serif;letter-spacing:.35em;color:var(--gold);margin-bottom:12px}
+    .invite{text-align:center;line-height:2.05;color:#ddd6cc;font-size:15px}
+    .invite strong{color:white;font-weight:600}
+    .signature{text-align:center;margin-top:35px;color:var(--gold);font-family:"Noto Serif KR",serif}
+    .info-card{border:1px solid var(--line);padding:30px 22px;background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.01))}
+    .info-row{display:grid;grid-template-columns:65px 1fr;gap:14px;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.07)}
+    .info-row:last-child{border:0}
+    .label{color:var(--gold);font-size:12px;letter-spacing:.12em}
+    .value{font-size:15px;line-height:1.65}
+    .countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:25px}
+    .count{border:1px solid rgba(255,255,255,.09);padding:14px 4px;text-align:center;background:#0d0d0f}
+    .count b{display:block;font-family:Georgia,serif;font-size:23px;color:var(--gold);font-weight:400}
+    .count small{font-size:9px;color:#857f77;letter-spacing:.1em}
+    .poster{
+      aspect-ratio:3/4.15;border:1px solid var(--line);position:relative;display:flex;align-items:center;justify-content:center;text-align:center;
+      background:
+        radial-gradient(circle at 50% 28%,rgba(216,181,107,.23),transparent 25%),
+        linear-gradient(150deg,#211716,#08080a 65%);
+      box-shadow:0 25px 50px rgba(0,0,0,.45)
+    }
+    .poster:before{content:"";position:absolute;inset:14px;border:1px solid rgba(216,181,107,.35)}
+    .poster-inner{padding:35px;position:relative}
+    .poster .clap{font-size:38px;margin-bottom:25px}
+    .poster h3{font-family:Georgia,"Noto Serif KR",serif;font-size:29px;line-height:1.55;margin:0;font-weight:500}
+    .poster p{font-size:11px;letter-spacing:.18em;color:var(--gold);margin-top:24px}
+    .mapbox{overflow:hidden;border:1px solid var(--line);background:#ece8df;color:var(--ink)}
+    .map-art{height:210px;position:relative;background:
+      linear-gradient(30deg,transparent 47%,#cfcbc2 48% 52%,transparent 53%),
+      linear-gradient(150deg,transparent 47%,#d8d4cb 48% 52%,transparent 53%),#eeeae2;
+      background-size:74px 74px;
+    }
+    .pin{position:absolute;left:50%;top:50%;transform:translate(-50%,-60%);width:54px;height:54px;border-radius:50% 50% 50% 0;background:#8c1d26;rotate:-45deg;box-shadow:0 7px 16px #0003}
+    .pin:after{content:"🎬";position:absolute;inset:7px;border-radius:50%;background:white;display:grid;place-items:center;rotate:45deg;font-size:20px}
+    .map-copy{padding:22px;text-align:center}
+    .map-copy b{display:block;font-size:16px;margin-bottom:7px}
+    .map-copy p{font-size:12px;color:#65605b;margin:0;line-height:1.6}
+    .buttons{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:13px}
+    .btn{
+      border:1px solid var(--line);background:transparent;color:#f5efe6;padding:14px 10px;text-decoration:none;text-align:center;
+      cursor:pointer;transition:.2s;font-size:13px
+    }
+    .btn:hover,.btn:active{background:var(--gold);color:#15110b}
+    .btn.full{grid-column:1/-1;background:var(--gold);color:#15110b;font-weight:700}
+    .notice{font-size:13px;color:#c7c0b6;line-height:1.9;padding-left:18px;margin:0}
+    .notice li{margin-bottom:8px}
+    footer{text-align:center;padding:55px 25px 95px;color:#777068;font-size:11px;line-height:1.8}
+    .floating{
+      position:fixed;z-index:20;right:max(17px,calc((100vw - 520px)/2 + 17px));bottom:18px;width:45px;height:45px;border-radius:50%;
+      border:1px solid var(--line);background:rgba(15,15,17,.9);color:var(--gold);backdrop-filter:blur(10px);cursor:pointer
+    }
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .8s,transform .8s}
+    .reveal.on{opacity:1;transform:none}
+    @media (max-width:360px){h1{font-size:30px}section{padding-left:22px;padding-right:22px}}
+  </style>
+</head>
+<body>
+<main class="page">
+  <section class="hero">
+    <div class="film top"></div><div class="film bottom"></div>
+    <div>
+      <div class="eyebrow">YOU ARE INVITED</div>
+      <h1><small>시립중랑청소년센터</small>청소년 소영화<br>제작발표회</h1>
+      <div class="rule"></div>
+      <div class="date">2026. 08. 29. SAT · 11:00</div>
+      <div class="place">MEGABOX 상봉 1관</div>
+    </div>
+    <div class="scroll">SCROLL</div>
+  </section>
+
+  <section>
+    <h2 class="section-title reveal"><span>INVITATION</span>초대합니다</h2>
+    <div class="invite reveal">
+      청소년들이 직접 시나리오를 작성하고,<br>
+      촬영과 연기, 편집까지 함께하며 완성한<br>
+      소중한 영화들을 처음으로 선보입니다.<br><br>
+      한 편의 영화가 완성되기까지<br>
+      청소년들이 쏟은 <strong>열정과 노력의 순간</strong>을<br>
+      함께 응원해 주시기 바랍니다.<br><br>
+      여러분의 따뜻한 관심과 참석을 기다립니다.
+    </div>
+    <div class="signature reveal">시립중랑청소년센터 드림</div>
+  </section>
+
+  <section>
+    <h2 class="section-title reveal"><span>SCREENING DAY</span>행사 안내</h2>
+    <div class="info-card reveal">
+      <div class="info-row"><div class="label">일시</div><div class="value">2026년 8월 29일 토요일<br>오전 11시</div></div>
+      <div class="info-row"><div class="label">장소</div><div class="value">메가박스 상봉 1관<br><small>서울 중랑구 망우로30길 3</small></div></div>
+      <div class="info-row"><div class="label">주최</div><div class="value">시립중랑청소년센터</div></div>
+    </div>
+    <div class="countdown reveal" aria-label="행사까지 남은 시간">
+      <div class="count"><b id="d">--</b><small>DAYS</small></div>
+      <div class="count"><b id="h">--</b><small>HOURS</small></div>
+      <div class="count"><b id="m">--</b><small>MIN</small></div>
+      <div class="count"><b id="s">--</b><small>SEC</small></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title reveal"><span>OUR MOVIE</span>우리들의 이야기가<br>영화가 되는 순간</h2>
+    <div class="poster reveal">
+      <div class="poster-inner">
+        <div class="clap">🎬</div>
+        <h3>청소년<br>소영화<br>제작발표회</h3>
+        <p>2026 · JUNGNANG YOUTH CINEMA</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title reveal"><span>LOCATION</span>오시는 길</h2>
+    <div class="mapbox reveal">
+      <div class="map-art"><div class="pin"></div></div>
+      <div class="map-copy">
+        <b>메가박스 상봉 1관</b>
+        <p>서울특별시 중랑구 망우로30길 3<br>안산빌딩 메가박스 상봉</p>
+      </div>
+    </div>
+    <div class="buttons reveal">
+      <a class="btn" href="https://map.naver.com/p/search/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%83%81%EB%B4%89" target="_blank" rel="noopener">네이버지도</a>
+      <a class="btn" href="https://map.kakao.com/link/search/%EB%A9%94%EA%B0%80%EB%B0%95%EC%8A%A4%20%EC%83%81%EB%B4%89" target="_blank" rel="noopener">카카오맵</a>
+      <button class="btn full" id="share">초대장 공유하기</button>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title reveal"><span>NOTICE</span>안내 사항</h2>
+    <ul class="notice reveal">
+      <li>원활한 행사 진행을 위해 시작 10분 전까지 입장해 주세요.</li>
+      <li>상영 중에는 휴대전화를 무음으로 설정해 주세요.</li>
+      <li>상영관 내 음식물 반입 및 촬영은 현장 안내에 따라 주세요.</li>
+    </ul>
+  </section>
+
+  <footer>
+    시립중랑청소년센터 청소년 소영화 제작발표회<br>
+    2026. 08. 29. SAT · MEGABOX SANGBONG
+  </footer>
+</main>
+<button class="floating" id="top" aria-label="맨 위로">↑</button>
+
+<script>
+  const eventDate = new Date('2026-08-29T11:00:00+09:00');
+  function tick(){
+    let diff = eventDate - new Date();
+    if(diff <= 0){
+      document.querySelector('.countdown').innerHTML='<div class="count" style="grid-column:1/-1"><b>NOW</b><small>행사가 시작되었습니다</small></div>';
+      return;
+    }
+    const day = Math.floor(diff/86400000); diff%=86400000;
+    const hour = Math.floor(diff/3600000); diff%=3600000;
+    const min = Math.floor(diff/60000); const sec=Math.floor((diff%60000)/1000);
+    d.textContent=day; h.textContent=String(hour).padStart(2,'0'); m.textContent=String(min).padStart(2,'0'); s.textContent=String(sec).padStart(2,'0');
+  }
+  tick(); setInterval(tick,1000);
+
+  const io = new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+  document.getElementById('top').onclick=()=>scrollTo({top:0,behavior:'smooth'});
+  document.getElementById('share').onclick=async()=>{
+    const data={title:document.title,text:'시립중랑청소년센터 청소년 소영화 제작발표회에 초대합니다.',url:location.href};
+    try{
+      if(navigator.share) await navigator.share(data);
+      else { await navigator.clipboard.writeText(location.href); alert('초대장 주소를 복사했습니다.'); }
+    }catch(e){}
+  };
+</script>
+</body>
+</html>
